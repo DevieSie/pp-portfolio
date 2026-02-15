@@ -1,0 +1,32 @@
+.app-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.app-header__name{
+    margin-left: 2rem;
+}
+
+.app-header__name a{
+    text-decoration: none;
+}
+
+.app-header__menu{
+    display: flex;
+}
+
+.app-header__item{
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.app-header__item:hover{
+    border-bottom: 2px solid #fff;
+    transition: all .3s ease;
+}
+
+.app-header__item.active{
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+}
