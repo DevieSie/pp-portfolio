@@ -8,6 +8,6 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
   styleUrl: './header.scss',
 })
 
-export class Header {
+export class HeaderComponent {
 
 }

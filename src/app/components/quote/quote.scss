@@ -1,0 +1,21 @@
+:host {
+    display: block;
+    flex-direction: column;
+    border-radius: 0.7rem;
+    border: 1px solid #302e2e !important;
+    background-color: rgba(100, 100, 100, 0.2);
+    max-width: 35rem;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding: 1rem;
+}
+
+.quote-value {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 0;
+}
+
+.author { 
+    justify-self: end;
+}

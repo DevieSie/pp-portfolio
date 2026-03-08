@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './bg-rotator.html',
   styleUrl: './bg-rotator.scss',
 })
-export class BgRotator {
+export class BgRotatorComponent {
 
 }
