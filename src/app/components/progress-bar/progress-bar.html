@@ -1,0 +1,14 @@
+<div class="progress-wrap">
+  <div class="bar-track">
+    <div class="bar green"  [style.width.%]="completedPercentage()"  title="Ukończone"></div>
+    <div class="bar red"    [style.width.%]="revokedPercentage()"    title="Odrzucone"></div>
+    <div class="bar blue"   [style.width.%]="nesPercentage()"        title="Never Ending Story"></div>
+    <div class="bar grey"   [style.width.%]="remainingPercentage()"  title="Pozostałe"></div>
+  </div>
+
+  <div class="legend">
+    <span class="dot green"></span> COMPLETED: <b>{{ completed() }}</b> ({{ completedPercentage() }}%)
+    <span class="dot red"></span>   REVOKED: <b>{{ revoked() }}</b> ({{ revokedPercentage() }}%)
+    <span class="dot blue"></span>  NEVER ENDING: <b>{{ nes() }}</b> ({{ nesPercentage() }}%)
+  </div>
+</div>

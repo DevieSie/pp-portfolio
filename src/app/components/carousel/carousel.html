@@ -1,0 +1,21 @@
+<div class="carousel-wrap">
+  <h3>{{ title() }}</h3>
+  <div class="carousel-track">
+    @for (game of games(); track game.Name) {
+      <div class="game-card">
+        @if (game.ImageUrl) {
+          <img [src]="game.ImageUrl" [alt]="game.Name" class="game-img" />
+        } @else {
+          <div class="placeholder">🎮</div>
+        }
+        <div class="game-info">
+          <p class="game-name" [title]="game.Name">{{ game.Name }}</p>
+          <p class="game-date">{{ game[dateField()] | date:'dd.MM.yyyy' }}</p>
+          <p class="game-meta">{{ game.Platform }} · {{ game.Shop }}</p>
+        </div>
+      </div>
+    } @empty {
+      <p class="empty">No data</p>
+    }
+  </div>
+</div>

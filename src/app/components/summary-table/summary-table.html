@@ -1,0 +1,33 @@
+<div class="table-wrap">
+  <h3>{{ title() }}</h3>
+  <table>
+    <thead>
+      <tr>
+        <th class="rank">#</th>
+        <th [class.active]="sortBy() === 'name'" (click)="toggleSort('name')">
+          Name <span class="sort-icon">{{ sortIcon('name') }}</span>
+        </th>
+        <th class="bar-cell"></th>
+        <th [class.active]="sortBy() === 'count'" (click)="toggleSort('count')">
+          Count <span class="sort-icon">{{ sortIcon('count') }}</span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of sorted(); track item.Name; let i = $index) {
+        <tr>
+          <td class="rank">{{ i + 1 }}</td>
+          <td>{{ item.Name }}</td>
+          <td class="bar-cell">
+            <div class="mini-bar-track">
+              <div class="mini-bar" [style.width.%]="(item.Count / max()) * 100"></div>
+            </div>
+          </td>
+          <td class="count">{{ item.Count }}</td>
+        </tr>
+      } @empty {
+        <tr><td colspan="4" style="color:#a0a0c0; padding:12px">Brak danych</td></tr>
+      }
+    </tbody>
+  </table>
+</div>

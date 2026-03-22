@@ -1,0 +1,35 @@
+.pos-report {
+    display: flex;
+    background-color: rgba(50, 50, 50, 0.7);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 3rem;
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pos-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 16px;
+    font-size: 1.4rem;
+}
+
+.pos-total {
+    font-size: 0.9rem;
+    color: #a0a0c0;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.lists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.span-2 {
+  grid-row: span 2;
+}

@@ -1,0 +1,30 @@
+<div class="pos-report">
+  <h2 class="pos-title">
+    Pile of Shame
+  </h2>
+  <span class="pos-total">Total owned titles: {{ report()?.TotallyOwned }} </span>
+  <span class="pos-total">Remaining titles: {{ remaining() }} </span>
+
+  <app-progress-bar 
+    [completed]="this.report()?.Completed ?? 0" 
+    [revoked]="this.report()?.Revoked ?? 0" 
+    [nes]="this.report()?.NES ?? 0" 
+    [owned]="this.report()?.TotallyOwned ?? 0" 
+    [remaining]="this.remaining()" />
+
+  <app-carousel
+    [games]="report()?.RecentlyBought"
+    title="Recently acquired"
+    dateField="BoughtOn" />
+
+  <app-carousel
+    [games]="report()?.RecentlyCompleted"
+    title="Recently completed"
+    dateField="CompletedOn" />
+
+  <div class="lists-grid">
+    <app-summary-table [items]="report()?.PlatformSummary" title="Platforms" />
+    <app-summary-table class="span-2" [items]="report()?.GenreSummary"    title="Genres" />
+    <app-summary-table [items]="report()?.ShopSummary"     title="Shops" />
+  </div>
+</div>

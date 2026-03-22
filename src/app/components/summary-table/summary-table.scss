@@ -1,0 +1,61 @@
+.table-wrap {
+      background: #1a1a2e;
+      border-radius: 16px;
+      padding: 20px;
+      color: #fff;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin: 0 0 12px;
+      color: #a78bfa;
+      border-bottom: 1px solid #2a2a3e;
+      padding-bottom: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+    }
+    thead th {
+      text-align: left;
+      padding: 8px 10px;
+      color: #a0a0c0;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    thead th:hover { color: #a78bfa; }
+    thead th.active { color: #a78bfa; }
+    .sort-icon { margin-left: 4px; font-size: 0.7rem; }
+    tbody tr {
+      border-top: 1px solid #2a2a3e;
+      transition: background 0.15s;
+    }
+    tbody tr:hover { background: #ffffff08; }
+    td {
+      padding: 8px 10px;
+    }
+    td.count {
+      text-align: right;
+      color: #a0a0c0;
+      width: 60px;
+    }
+    .bar-cell { width: 40%; }
+    .mini-bar-track {
+      height: 6px;
+      background: #2a2a3e;
+      border-radius: 99px;
+      overflow: hidden;
+    }
+    .mini-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #7c6aff, #c084fc);
+      border-radius: 99px;
+      transition: width 0.4s ease;
+    }
+    .rank {
+      color: #4b5563;
+      font-size: 0.75rem;
+      width: 24px;
+    }

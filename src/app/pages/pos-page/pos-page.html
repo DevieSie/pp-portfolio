@@ -1,1 +1,8 @@
-<p>pos-page works!</p>
+@if(this.isLoading())
+{
+    <app-spinner></app-spinner>
+}
+@if (reportData()) {
+  <app-report [report]="reportData()" />
+}
+

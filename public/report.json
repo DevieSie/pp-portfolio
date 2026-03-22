@@ -1,0 +1,272 @@
+{
+  "TotallyOwned": 885,
+  "Completed": 118,
+  "Revoked": 16,
+  "NES": 30,
+  "RecentlyBought": [
+    {
+      "BoughtOn": "2026-03-21T21:54:47",
+      "CompletedOn": null,
+      "Name": "Avatar: Frontiers of Pandora - Deluxe Edition",
+      "Genre": "Adventure",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/co7nug.png",
+      "Platform": "PC",
+      "Shop": "Uplay",
+      "IsCompleted": false,
+      "IsRevoked": false,
+      "IsNes": false
+    },
+    {
+      "BoughtOn": "2026-03-21T20:08:40",
+      "CompletedOn": null,
+      "Name": "Wildgate",
+      "Genre": "Shooter",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/co9kqs.png",
+      "Platform": "PC",
+      "Shop": "EpicGames",
+      "IsCompleted": false,
+      "IsRevoked": false,
+      "IsNes": false
+    },
+    {
+      "BoughtOn": "2026-03-21T20:08:19",
+      "CompletedOn": null,
+      "Name": "Viewfinder",
+      "Genre": "Platform",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/coaev1.png",
+      "Platform": "PC",
+      "Shop": "EpicGames",
+      "IsCompleted": false,
+      "IsRevoked": false,
+      "IsNes": false
+    },
+    {
+      "BoughtOn": "2026-03-21T20:07:56",
+      "CompletedOn": null,
+      "Name": "Trine 4: Definitive Edition",
+      "Genre": "Platform",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/co9x0v.png",
+      "Platform": "PC",
+      "Shop": "EpicGames",
+      "IsCompleted": false,
+      "IsRevoked": false,
+      "IsNes": false
+    },
+    {
+      "BoughtOn": "2026-03-21T20:05:59",
+      "CompletedOn": null,
+      "Name": "Total War: Three Kingdoms",
+      "Genre": "Real Time Strategy (RTS)",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/co1rdc.png",
+      "Platform": "PC",
+      "Shop": "EpicGames",
+      "IsCompleted": false,
+      "IsRevoked": false,
+      "IsNes": false
+    }
+  ],
+  "RecentlyCompleted": [
+    {
+      "BoughtOn": "2018-03-20T22:22:50",
+      "CompletedOn": "2026-03-21T16:00:55",
+      "Name": "The Witcher",
+      "Genre": "Role-playing (RPG)",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/iu0fwtdxbhxq3nueup9w.jpg",
+      "Platform": "PC",
+      "Shop": "GOG",
+      "IsCompleted": true,
+      "IsRevoked": false,
+      "IsNes": false
+    },
+    {
+      "BoughtOn": "2018-03-21T20:19:43",
+      "CompletedOn": "2026-03-21T16:00:28",
+      "Name": "Unreal Tournament: Game of the Year Edition",
+      "Genre": "Shooter",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/c8bqgirpjrzsharavmvz.jpg",
+      "Platform": "PC",
+      "Shop": "GOG",
+      "IsCompleted": true,
+      "IsRevoked": false,
+      "IsNes": false
+    },
+    {
+      "BoughtOn": "2026-03-21T15:58:10",
+      "CompletedOn": "2026-03-21T15:59:13",
+      "Name": "Tomb Raider",
+      "Genre": "Shooter",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/co3hfx.png",
+      "Platform": "PC",
+      "Shop": "Unknown",
+      "IsCompleted": true,
+      "IsRevoked": false,
+      "IsNes": false
+    },
+    {
+      "BoughtOn": "2026-03-21T15:48:04",
+      "CompletedOn": "2026-03-21T15:50:36",
+      "Name": "RollerCoaster Tycoon",
+      "Genre": "Simulator",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/co2r6q.png",
+      "Platform": "PC",
+      "Shop": "Unknown",
+      "IsCompleted": true,
+      "IsRevoked": false,
+      "IsNes": false
+    },
+    {
+      "BoughtOn": "2025-02-25T21:36:22",
+      "CompletedOn": "2026-03-21T15:49:17",
+      "Name": "Dredge",
+      "Genre": "Role-playing (RPG)",
+      "ImageUrl": "https://images.igdb.com/igdb/image/upload/t_1080p_2x/co97eq.png",
+      "Platform": "PC",
+      "Shop": "EpicGames",
+      "IsCompleted": true,
+      "IsRevoked": false,
+      "IsNes": false
+    }
+  ],
+  "PlatformSummary": [
+    {
+      "Name": "PC",
+      "Count": 860
+    },
+    {
+      "Name": "Nintendo Switch",
+      "Count": 9
+    },
+    {
+      "Name": "Unknown",
+      "Count": 8
+    },
+    {
+      "Name": "Oculus VR",
+      "Count": 6
+    },
+    {
+      "Name": "Xbox",
+      "Count": 1
+    },
+    {
+      "Name": "Nintendo Entertainment System (NES)",
+      "Count": 1
+    }
+  ],
+  "GenreSummary": [
+    {
+      "Name": "Role-playing (RPG)",
+      "Count": 200
+    },
+    {
+      "Name": "Shooter",
+      "Count": 161
+    },
+    {
+      "Name": "Real Time Strategy (RTS)",
+      "Count": 86
+    },
+    {
+      "Name": "Platform",
+      "Count": 82
+    },
+    {
+      "Name": "Simulator",
+      "Count": 75
+    },
+    {
+      "Name": "Puzzle",
+      "Count": 72
+    },
+    {
+      "Name": "Adventure",
+      "Count": 49
+    },
+    {
+      "Name": "Strategy",
+      "Count": 48
+    },
+    {
+      "Name": "Point-and-click",
+      "Count": 26
+    },
+    {
+      "Name": "Racing",
+      "Count": 24
+    },
+    {
+      "Name": "Fighting",
+      "Count": 21
+    },
+    {
+      "Name": "Unknown",
+      "Count": 12
+    },
+    {
+      "Name": "Hack and slash/Beat \u0027em up",
+      "Count": 10
+    },
+    {
+      "Name": "Music",
+      "Count": 6
+    },
+    {
+      "Name": "Indie",
+      "Count": 5
+    },
+    {
+      "Name": "Sport",
+      "Count": 3
+    },
+    {
+      "Name": "Turn-based strategy (TBS)",
+      "Count": 3
+    },
+    {
+      "Name": "Tactical",
+      "Count": 2
+    }
+  ],
+  "ShopSummary": [
+    {
+      "Name": "Steam",
+      "Count": 443
+    },
+    {
+      "Name": "GOG",
+      "Count": 175
+    },
+    {
+      "Name": "EpicGames",
+      "Count": 115
+    },
+    {
+      "Name": "Unknown",
+      "Count": 63
+    },
+    {
+      "Name": "Uplay",
+      "Count": 39
+    },
+    {
+      "Name": "Origin",
+      "Count": 24
+    },
+    {
+      "Name": "Amazon\u0026Legacy",
+      "Count": 11
+    },
+    {
+      "Name": "Battle.NET",
+      "Count": 6
+    },
+    {
+      "Name": "Switch",
+      "Count": 5
+    },
+    {
+      "Name": "VR",
+      "Count": 4
+    }
+  ]
+}
