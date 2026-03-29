@@ -1,0 +1,14 @@
+.about__container {
+    display: block;
+    flex-direction: column;
+    border-radius: 0.7rem;
+    border: 1px solid #302e2e !important;
+    background-color: rgba(100, 100, 100, 0.2);
+    margin: 5%;
+    padding: 1rem;
+}
+
+.about__container p {
+    font-size: 1.2rem;
+    margin: 0;
+}
