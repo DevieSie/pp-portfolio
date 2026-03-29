@@ -11,13 +11,12 @@
     }
     .carousel-track {
       display: flex;
+      flex-wrap: wrap;
       gap: 16px;
       overflow-x: auto;
       padding-bottom: 8px;
-      scroll-snap-type: x mandatory;
-      -webkit-overflow-scrolling: touch;
     }
-    /* ukryj scrollbar ale zostaw funkcjonalność */
+
     .carousel-track::-webkit-scrollbar { height: 4px; }
     .carousel-track::-webkit-scrollbar-track { background: #1a1a2e; border-radius: 99px; }
     .carousel-track::-webkit-scrollbar-thumb { background: #7c6aff; border-radius: 99px; }
@@ -30,16 +29,19 @@
       overflow: hidden;
       transition: transform 0.2s, box-shadow 0.2s;
     }
+
     .game-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 8px 24px #7c6aff44;
     }
+
     .game-img {
       width: 100%;
       height: 180px;
       object-fit: cover;
       display: block;
     }
+
     .placeholder {
       width: 100%;
       height: 180px;
@@ -49,9 +51,11 @@
       justify-content: center;
       font-size: 2.5rem;
     }
+
     .game-info {
       padding: 8px 10px 10px;
     }
+
     .game-name {
       font-size: 0.82rem;
       font-weight: 600;
@@ -60,10 +64,12 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
+
     .game-date {
       font-size: 0.72rem;
       color: #7c6aff;
     }
+
     .game-meta {
       font-size: 0.72rem;
       color: #a0a0c0;
@@ -72,6 +78,7 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
+
     .empty {
       color: #a0a0c0;
       font-style: italic;

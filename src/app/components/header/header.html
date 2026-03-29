@@ -1,12 +1,31 @@
 <div class="app-header">
-    <div class="app-header__name">
-        <a routerLink="">Piotr Purta</a>
-    </div>
-    <div class="app-header__menu">
-        <a routerLink="about" routerLinkActive="active" class="app-header__item">O mnie</a>
-        <a routerLink="resume" routerLinkActive="active" class="app-header__item">CV</a>
-        <a href="https://pp--blog.blogspot.com" target="_blank" class="app-header__item">Blog</a>
-        <a routerLink="projects" routerLinkActive="active" class="app-header__item">Projekty</a>
-        <a routerLink="pos" routerLinkActive="active" class="app-header__item">Pile of Shame</a>
-    </div>
+  <div class="app-header__name">
+    <a routerLink="">Piotr Purta</a>
+  </div>
+
+  <div class="app-header__menu desktop-menu">
+    <a routerLink="about" routerLinkActive="active" class="app-header__item">O mnie</a>
+    <a routerLink="resume" routerLinkActive="active" class="app-header__item">CV</a>
+    <a href="https://pp--blog.blogspot.com" target="_blank" rel="noopener" class="app-header__item">Blog</a>
+    <a routerLink="projects" routerLinkActive="active" class="app-header__item">Projekty</a>
+    <a routerLink="pos" routerLinkActive="active" class="app-header__item">Pile of Shame</a>
+  </div>
+
+  <button class="app-header__hamburger" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 </div>
+
+@if (menuOpen) {
+  <div class="app-header__mobile-overlay" (click)="closeMenu()">
+    <div class="app-header__mobile-menu" (click)="$event.stopPropagation()">
+      <a routerLink="about" routerLinkActive="active" class="app-header__item" (click)="closeMenu()">O mnie</a>
+      <a routerLink="resume" routerLinkActive="active" class="app-header__item" (click)="closeMenu()">CV</a>
+      <a href="https://pp--blog.blogspot.com" target="_blank" rel="noopener" class="app-header__item" (click)="closeMenu()">Blog</a>
+      <a routerLink="projects" routerLinkActive="active" class="app-header__item" (click)="closeMenu()">Projekty</a>
+      <a routerLink="pos" routerLinkActive="active" class="app-header__item" (click)="closeMenu()">Pile of Shame</a>
+    </div>
+  </div>
+}

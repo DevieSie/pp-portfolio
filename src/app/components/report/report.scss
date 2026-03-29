@@ -1,5 +1,6 @@
 .pos-report {
     display: flex;
+    justify-content: center;
     background-color: rgba(50, 50, 50, 0.7);
     border-radius: 16px;
     padding: 24px;
@@ -32,4 +33,12 @@
 
 .span-2 {
   grid-row: span 2;
+}
+
+@media (max-width: 768px) {
+.lists-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(300px, 1fr));
+  gap: 16px;
+}
 }
